@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="free.html" method="get">
+        <h2>Employee Registration Form</h2>
+        <label for="firstName">Firstname:</label>
+        <input type="text" id="firstName" placeholder="spongebob" required>
+        <br>
+        <label for="lastName">Lastname</label>
+        <input type="text" id="lastName" placeholder="squarepant" required>
+        <br>
+        <label for="date-of-birth">Date of birth:</label>
+        <input type="date" id="date-of-birth">
+        <br>
+        <label for="Resume">Upload Resume</label>
+        <input type="file" id="Resume" accept=".pdf,.doc,.docx" required>
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" id="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female">
+        <label for="others">Others</label>
+        <input type="radio" id="others">
+        <br>
+        <label for="position">Position</label>
+        <select name="position" id="position">
+            <option label="Driver" value="Driver">Driver</option>
+            <option value="cleaner">Cleaner</option>
+            <option value="gardener">Gardener</option>
+            <option value="Chef">Chef</option>
+        </select>
+        <br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
